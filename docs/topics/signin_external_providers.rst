@@ -75,7 +75,7 @@ You typically want to pass in some options to the challenge operation, e.g. the 
         }
     };
     
-    return Challenge(provider, props);
+    return Challenge(props, provider);
 
 Handling the callback and signing in the user
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
